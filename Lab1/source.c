@@ -1,10 +1,10 @@
-#include <stdio.h>
+п»ї#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include "Numbers.h"
 #include "IntervalNumbers.h"
 
-#define RESULT_MSG "'D'; 'Меня зовут %s %s'; 191, –437; 138.76, –961.753; 993.\n"
+#define RESULT_MSG "'D'; 'РњРµРЅСЏ Р·РѕРІСѓС‚ %s %s'; 191, вЂ“437; 138.76, вЂ“961.753; 993.\n"
 #define PRINT_MSG1 "Print Your LastName:\n"
 #define PRINT_MSG2 "Print Your FirstName:\n"
 #define PRINT_MSG3 "Print a b c d:\n"
