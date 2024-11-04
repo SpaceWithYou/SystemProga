@@ -1,0 +1,8 @@
+﻿  source.c
+C:\Users\Артемий\Downloads\Системное программирование\Lab2\Lab2\source.c(74,11): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Артемий\Downloads\Системное программирование\Lab2\Lab2\source.c(77,13): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Артемий\Downloads\Системное программирование\Lab2\Lab2\source.c(71,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Артемий\Downloads\Системное программирование\Lab2\Lab2\source.c(172,11): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Артемий\Downloads\Системное программирование\Lab2\Lab2\source.c(175,13): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Артемий\Downloads\Системное программирование\Lab2\Lab2\source.c(170,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Lab2.vcxproj -> C:\Users\Артемий\Downloads\Системное программирование\Lab2\Lab2\x64\Debug\Lab2.exe
