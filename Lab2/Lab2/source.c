@@ -35,6 +35,10 @@ void task2() {
 	p1 = (bool*)malloc(sizeof(bool));
 	p2 = (bool*)malloc(sizeof(bool));
 
+	if (p1 == NULL || p2 == NULL) {
+		printf("Error!\n");
+		return;
+	}
 	*p1 = true;
 	*p2 = false;
 	free(p1);
@@ -62,9 +66,9 @@ void task3(dynamic_array *d_array) {
 }
 
 void swap(int* a, int* b) {
-	int temp = *a;
-	*a = *b;
-	*b = temp;
+	*a = *a ^ *b;
+	*b = *a ^ *b;
+	*a = *a ^ *b;
 }
 
 void selection_sort(dynamic_array *d_array) {
@@ -97,6 +101,10 @@ dynamic_array task4(dynamic_array* d_array) {
 	}
 	
 	result.data = (int*)malloc(result.size * sizeof(int));
+	if (result.data == NULL) {
+		printf("Error!\n");
+		return result;
+	}
 	result.size = 0;
 	for (size_t i = 0; i < size; i++) {
 		data_at_i = get_i;
@@ -183,6 +191,10 @@ void sort_CDs(CD* cd_arr, size_t length) {
 
 CD* task7(CD* cd_arr) {
 	char* search_prefix = (char*)malloc(PREFIX_LENGTH * sizeof(char));
+	if (search_prefix == NULL) {
+		printf("Error!\n");
+		return NULL;
+	}
 	scanf("%s", search_prefix);
 
 	int counter = 0;
@@ -249,6 +261,10 @@ Circle* get_circles() {
 
 CD* get_cds() {
 	CD* cds = (CD *)malloc(sizeof(CD) * ARRAY_LENGTH);
+	if (cds == NULL) {
+		printf("Error!\n");
+		return NULL;
+	}
 	cds[0] = (CD){ .name = "bad", .musician = "Michael Jackson", .style = "pop-rock", .year = 1999, .duration = 10, .cost = 100};
 	cds[1] = (CD){ .name = "thriller", .musician = "Michael Jackson", .style = "pop", .year = 1999, .duration = 10, .cost = 100 };
 	cds[2] = (CD){ .name = "happy Nation", .musician = "Ace of Base", .style = "dance-pop", .year = 1999, .duration = 10, .cost = 100 };
@@ -275,6 +291,12 @@ int main(int argc, char** argv) {
 	task5();
 	/*
 	Circle* circles = (Circle*)malloc(sizeof(Circle) * ARRAY_LENGTH);
+	if(circles == NULL) {
+		printf("Error!\n");
+		task6(get_circles());
+		task7(get_cds());
+		return;
+	}
 	int x = -1, y = -1, r = -1; //temp
 	printf("x y r\n");
 	for (size_t i = 0; i < ARRAY_LENGTH; i++) {
