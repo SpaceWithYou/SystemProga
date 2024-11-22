@@ -25,8 +25,6 @@ void task1() {
 		*p1 /= 2;
 		*p2 *= 3;
 	}
-	//free(p1);
-	//free(p2);
 }
 
 void task2() {
@@ -35,7 +33,15 @@ void task2() {
 	p1 = (bool*)malloc(sizeof(bool));
 	p2 = (bool*)malloc(sizeof(bool));
 
-	if (p1 == NULL || p2 == NULL) {
+	int flag = 0;
+	if (p1 == NULL) {
+		flag = 1;
+	}
+	if (p2 == NULL) {
+		free(p1);
+		flag = 1;
+	}
+	if (flag) {
 		printf("Error!\n");
 		return;
 	}
@@ -88,6 +94,9 @@ void selection_sort(dynamic_array *d_array) {
 }
 
 dynamic_array task4(dynamic_array* d_array) {
+	if (d_array == NULL) {
+		return (dynamic_array) { NULL, 0 };
+	}
 	size_t size = get_data_size(d_array);
 	dynamic_array result;
 	result.size = 0;
@@ -122,6 +131,9 @@ dynamic_array task4(dynamic_array* d_array) {
 }
 
 void get_quadrant_by_param(int* quadrant, int x, int y) {
+	if (quadrant == NULL) {
+		return;
+	}
 	if (x * y > 0) {
 		if (x > 0) {
 			*quadrant = 1;
@@ -147,6 +159,10 @@ void get_quadrant_by_param(int* quadrant, int x, int y) {
 
 void task5() {
 	int* quadrant = (int *)malloc(sizeof(int));
+	if (quadrant == NULL) {
+		printf("Error!\n");
+		return;
+	}
 	get_quadrant_by_param(quadrant, 1, 1);
 	printf("quadrant %d\n", *quadrant);
 	get_quadrant_by_param(quadrant, -2, 3);
@@ -155,13 +171,12 @@ void task5() {
 
 void task6(Circle* circles) {
 	int x = -1, y = -1, r = INT_MAX; //min circle
-	Circle circle;
 	for (size_t i = 0; i < ARRAY_LENGTH; i++) {
-		circle = *(circles + i);
-		if (circle.radius <= r) {
-			x = circle.center.x;
-			y = circle.center.y;
-			r = circle.radius;
+		//if (circles[i].radius)
+		if ((circles + i)->radius <= r) {
+			x = (circles + i)->center.x;
+			y = (circles + i)->center.y;
+			r = (circles + i)->radius;
 		}
 	}
 
@@ -190,6 +205,10 @@ void sort_CDs(CD* cd_arr, size_t length) {
 }
 
 CD* task7(CD* cd_arr) {
+	if (cd_arr == NULL) {
+		printf("Error!\n");
+		return NULL;
+	}
 	char* search_prefix = (char*)malloc(PREFIX_LENGTH * sizeof(char));
 	if (search_prefix == NULL) {
 		printf("Error!\n");
@@ -209,6 +228,10 @@ CD* task7(CD* cd_arr) {
 	}
 
 	CD* result = (CD *)malloc(sizeof(CD) * counter);
+	if (result == NULL) {
+		printf("Error!\n");
+		return NULL;
+	}
 	int j = 0;
 	for (size_t i = 0; i < ARRAY_LENGTH; i++) {
 		if (!strncmp(search_prefix, cd_arr[i].name, PREFIX_LENGTH)) {
@@ -235,6 +258,11 @@ CD* task7(CD* cd_arr) {
 
 void init_arr(dynamic_array* d_array) {
 	d_array->data = (int*)malloc(6 * sizeof(int));
+	if (d_array->data == NULL) {
+		d_array = NULL;
+		printf("Error!\n");
+		return;
+	}
 	d_array->data[0] = 0;
 	d_array->data[1] = -1;
 	d_array->data[2] = 2;
@@ -246,6 +274,10 @@ void init_arr(dynamic_array* d_array) {
 
 Circle* get_circles() {
 	Circle* circles = (Circle *)malloc(sizeof(Circle) * ARRAY_LENGTH);
+	if (circles == NULL) {
+		printf("Error!\n");
+		return;
+	}
 	circles[0] = (Circle){.center = {-190, 1000}, .radius = 10};
 	circles[1] = (Circle){ .center = {-19, 1}, .radius = 9 };
 	circles[2] = (Circle){ .center = {0, 0}, .radius = 8 };
