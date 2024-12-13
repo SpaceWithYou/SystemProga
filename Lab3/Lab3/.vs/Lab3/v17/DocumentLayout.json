@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0410\u0440\u0442\u0435\u043C\u0438\u0439\\Downloads\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\Lab3\\Lab3\\",
+  "WorkspaceRootPath": "C:\\Users\\reserv\\Downloads\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\SystemProga\\Lab3\\Lab3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{772F1739-7EBD-4147-B473-C2CF691B78FF}|Lab3.vcxproj|C:\\Users\\\u0410\u0440\u0442\u0435\u043C\u0438\u0439\\Downloads\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\Lab3\\Lab3\\source1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{772F1739-7EBD-4147-B473-C2CF691B78FF}|Lab3.vcxproj|solutionrelative:source1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{772F1739-7EBD-4147-B473-C2CF691B78FF}|Lab3.vcxproj|C:\\Users\\reserv\\Downloads\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\SystemProga\\Lab3\\Lab3\\source2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{772F1739-7EBD-4147-B473-C2CF691B78FF}|Lab3.vcxproj|solutionrelative:source2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{772F1739-7EBD-4147-B473-C2CF691B78FF}|Lab3.vcxproj|C:\\Users\\\u0410\u0440\u0442\u0435\u043C\u0438\u0439\\Downloads\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\Lab3\\Lab3\\source2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{772F1739-7EBD-4147-B473-C2CF691B78FF}|Lab3.vcxproj|solutionrelative:source2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{772F1739-7EBD-4147-B473-C2CF691B78FF}|Lab3.vcxproj|C:\\Users\\reserv\\Downloads\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\SystemProga\\Lab3\\Lab3\\source1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{772F1739-7EBD-4147-B473-C2CF691B78FF}|Lab3.vcxproj|solutionrelative:source1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 528,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,26 +34,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "source1.c",
-              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0435\u043C\u0438\u0439\\Downloads\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\Lab3\\Lab3\\source1.c",
+              "DocumentMoniker": "C:\\Users\\reserv\\Downloads\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\SystemProga\\Lab3\\Lab3\\source1.c",
               "RelativeDocumentMoniker": "source1.c",
-              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0435\u043C\u0438\u0439\\Downloads\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\Lab3\\Lab3\\source1.c",
+              "ToolTip": "C:\\Users\\reserv\\Downloads\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\SystemProga\\Lab3\\Lab3\\source1.c",
               "RelativeToolTip": "source1.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABHAAAA",
+              "ViewState": "AgIAAOgAAAAAAAAAAAAmwEMBAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-11-21T19:26:23.719Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "source2.c",
-              "DocumentMoniker": "C:\\Users\\\u0410\u0440\u0442\u0435\u043C\u0438\u0439\\Downloads\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\Lab3\\Lab3\\source2.c",
+              "DocumentMoniker": "C:\\Users\\reserv\\Downloads\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\SystemProga\\Lab3\\Lab3\\source2.c",
               "RelativeDocumentMoniker": "source2.c",
-              "ToolTip": "C:\\Users\\\u0410\u0440\u0442\u0435\u043C\u0438\u0439\\Downloads\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\Lab3\\Lab3\\source2.c",
+              "ToolTip": "C:\\Users\\reserv\\Downloads\\\u0421\u0438\u0441\u0442\u0435\u043C\u043D\u043E\u0435 \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435\\SystemProga\\Lab3\\Lab3\\source2.c",
               "RelativeToolTip": "source2.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAAANAAAA",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAAAP8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-11-21T20:01:26.496Z",
               "EditorCaption": ""
